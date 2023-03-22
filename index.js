@@ -1,3 +1,14 @@
+function countDown(num) {
+      while(num >= 0) {
+        console.log(num);
+        num--
+      }
+    }
+    countDown(10);
+
+
+
+
 function writeCards(names, eventName){
           let messages=[];
             for(let i=0;i<names.length;i++){
@@ -25,16 +36,6 @@ writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 
 
-function countDown(num){
-while(num >= 0) {
-console.log(num);
-      num--;
-}
-
-
-
-}
-countDown(10);
 
 
 
